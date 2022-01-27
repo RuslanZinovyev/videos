@@ -4,6 +4,7 @@ import youtube from "../api/youtube";
 import VideoList from "./VideoList";
 import VideoDetail from "./VideoDetail";
 
+// The main poin of the application
 class App extends React.Component {
   state = {
     videos: [],
